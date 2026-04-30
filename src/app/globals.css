@@ -9,6 +9,7 @@
 	--ring: rgba(47, 227, 154, 0.3);
 }
 
+/* База: box-sizing и высота документа */
 * {
 	box-sizing: border-box;
 }
@@ -29,7 +30,6 @@ body {
 	font-family: var(--font-inter);
 }
 
-/* Типографика: заголовки */
 h1,
 h2,
 h3,
@@ -98,6 +98,7 @@ code pre {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* Навигация: плавающий блок ссылок */
 
 .navigation {
 	position: sticky;
@@ -122,6 +123,7 @@ code pre {
 
 }
 
+/* Ссылки навигации */
 .nav-link {
 	color: var(--muted);
 	text-decoration: none;
@@ -135,6 +137,7 @@ code pre {
 	background: rgba(255, 255, 255, 0.04);
 }
 
+/* Кнопки */
 .buttons-wrapper {
 	display: flex;
 	gap: 10px;
@@ -314,6 +317,7 @@ code pre {
 	font-size: 14px;
 }
 
+/* Заголовок раздела */
 .section-title {
 	margin: 36px 0 12px;
 	font-size: 24px;
