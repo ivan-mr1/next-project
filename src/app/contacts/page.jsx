@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "next | contacts",
+  description: "contacts page descr",
+};
+
 const ContactsPage = () => {
   return (
     <section className="content">
